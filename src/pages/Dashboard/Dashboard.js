@@ -21,6 +21,7 @@ import { Completed } from '../Test/Completed/Completed';
 import { Newtest } from '../Test/New/Newtest';
 import { Payment } from '../Test/payment/Payment';
 import { Info, Kickstart } from '../Test/Info/Info';
+import { One } from '../Test/One/One';
   
 
 const Body = () => {
@@ -42,7 +43,7 @@ const Body = () => {
             <Route path="/payment" element={ <Payment/> } />
             <Route path="/info" element={ <Info/> } />
             <Route path="/kickstart" element={ <Kickstart /> } />
-            {/* <Route path="/one" element={ <One />} /> */}
+            <Route path="/one" element={ <One/>} />
           </Routes>
         {/* </Router> */}
           
